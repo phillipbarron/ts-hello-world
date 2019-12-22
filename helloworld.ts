@@ -4,9 +4,9 @@ interface Tag {
 }
 
 enum alignment {
-    CENTER,
-    LEFT,
-    RIGHT
+    CENTER = "CENTRE_ALIGNMENT",
+    LEFT = "LEFT_ALIGNMENT",
+    RIGHT = "RIGHT_ALIGNMENT"
 };
 
 

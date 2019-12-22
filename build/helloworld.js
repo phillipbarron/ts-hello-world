@@ -1,8 +1,8 @@
 var alignment;
 (function (alignment) {
-    alignment[alignment["CENTER"] = 0] = "CENTER";
-    alignment[alignment["LEFT"] = 1] = "LEFT";
-    alignment[alignment["RIGHT"] = 2] = "RIGHT";
+    alignment["CENTER"] = "CENTRE_ALIGNMENT";
+    alignment["LEFT"] = "LEFT_ALIGNMENT";
+    alignment["RIGHT"] = "RIGHT_ALIGNMENT";
 })(alignment || (alignment = {}));
 ;
 var message = "So this is typescript";
