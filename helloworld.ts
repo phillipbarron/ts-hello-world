@@ -3,6 +3,13 @@ interface Tag {
   url: String;
 }
 
+enum alignment {
+    CENTER,
+    LEFT,
+    RIGHT
+};
+
+
 let message: String = "So this is typescript";
 
 console.log("message", JSON.stringify(message, null, 2));
@@ -19,3 +26,4 @@ const tag1 = {
 const someTagsArray: Array<Tag> = [tag1];
 
 console.log(getDescription(someTagsArray));
+console.log('enums', alignment.CENTER, alignment.LEFT, alignment.RIGHT);
